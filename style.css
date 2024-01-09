@@ -1,0 +1,378 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
+/* Header Section Design */
+.header {
+  background-image: url('./resources/BannerImage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  color: #fff;
+}
+
+.banner p{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.banner h1{
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* 65%off Section Design */
+.offer {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-body h2 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #FF0000;
+}
+
+.offer-body h6 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FF0000;
+  line-height: 0;
+}
+
+.offer-body h4 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+/* party Section Design */
+.party {
+  background-image: url('./resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.party-body { 
+  color: #fff;
+  width: 50%;
+  padding-right: 5%;
+}
+
+.party h1{
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.party p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -5%;
+}
+
+.party h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 5%;
+}
+
+/* join now Section Design */
+.join-now {
+  font-family: 'Roboto', sans-serif;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 90px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #ff000020, #fff);
+}
+
+.join-now-body h3 {
+  font-size: 32px;
+}
+
+.join-now-body h3 span {
+  color: #FF0000;
+}
+
+.join-now-body .btn-sec {
+  font-size: 20px;
+  color: #fff;
+  background-color: #FF0000;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 8px;
+}
+
+/* BEST OFFER Section Design */
+.best-offer {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  margin: 0px 90px;
+  gap: 80px;
+}
+
+.best-offer .col-1 {
+  width: 50%;
+}
+
+.best-offer .col-1 h6{
+  font-size: 18px;
+  color: #FF0000;
+  line-height: 0px;
+}
+
+.best-offer .col-1 h2{
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0px;
+}
+
+.best-offer .col-1 p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.best-offer .col-2 img{
+  border-radius: 50%;
+  outline: 10px solid #FF0000;
+  outline-offset: 15px;
+}
+
+.best-offer .col-3 h2{
+  color: #FF0000;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0;
+}
+
+.best-offer .col-3 p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Holidays Section Design */
+.holidays {
+  margin: 0px 90px;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url('/resources/Rectangle 2.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 25%;
+  /* align-items: center; */
+}
+
+.holidays .holidays-body {
+  text-align: center;
+}
+
+.holidays .holidays-body .holidays-text {
+  text-align: center;
+  padding: 0% 15%;
+}
+
+.holidays .holidays-body .holidays-text h6{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.holidays .holidays-body .holidays-text h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 10px;
+}
+
+.holidays .holidays-body .holidays-text p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.holidays .holidays-body .holidays-text h1 span {
+  color: #FF0000;
+}
+
+.holidays .holidays-body .holidays-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holidays .holidays-body .holidays-img .img-1{
+  width: 350px;
+  transform: translateX(200px);
+}
+
+.holidays .holidays-body .holidays-img .img-2{
+  width: 250px;
+  transform: translate(300px, -30px);
+}
+
+.holidays .holidays-body .holidays-img .img-3{
+  width: 350px;
+  margin-bottom: 10%;
+  z-index: -1;
+}
+
+
+/* Our awesome Portfolio Section Design */
+.portfolio {
+  margin: 0px 90px;
+}
+
+.portfolio .portfolio-text {
+  width: 50%;
+}
+.portfolio .portfolio-text h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #FF0000;
+  font-size: 18px;
+}
+
+.portfolio .portfolio-text h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 10px;
+}
+
+.portfolio .portfolio-text p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.portfolio .portfolio-img {
+  display: flex;
+  gap: 25px;
+  margin-top: 3%;
+}
+
+/* subscribe Section Design */
+.subscribe {
+  height: 80vh;
+  margin: 80px 90px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff000015;
+  border-radius: 15px;
+}
+
+.subscribe .subscribe-text {
+  width: 50%;
+}
+
+.subscribe .subscribe-text h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 10px;
+}
+
+.subscribe .subscribe-text p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.subscribe .button {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button input {
+  font-size: 18px;
+  color: #fff;
+  padding: 16px 32px;
+  border: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.subscribe .btn-sec {
+  font-size: 20px;
+  color: #fff;
+  background-color: #FF0000;
+  padding: 16px 32px;
+  border: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Footer Section Design */
+.footer {
+  padding: 50px 90px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #070211;
+}
+
+.footer .footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer hr {
+  margin: 3% 0px;
+  border: 1px solid #ffffff1f;
+}
+
+.footer .footer-text > p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer .footer-text .call-text {
+  margin-right: 10%;
+}
+.call-text .call,
+.call-text .link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 0;
+}
+
+.footer .footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer .footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+ 
