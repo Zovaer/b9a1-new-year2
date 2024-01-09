@@ -1,7 +1,10 @@
 body {
   font-family: 'Merriweather', serif;
 }
-
+*{
+  max-width: 1320;
+  
+}
 
 /* Header Section Design */
 .header {
@@ -189,6 +192,8 @@ body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100% 25%;
+  
+}
   /* align-items: center; */
 }
 
@@ -240,8 +245,14 @@ body {
 .holidays .holidays-body .holidays-img .img-3{
   width: 350px;
   margin-bottom: 10%;
+  z-index: -2;
+}
+.holidays .holidays-body .holidays-img .img-4{
+  width: 1320px;
+  margin-bottom: 10%;
   z-index: -1;
 }
+
 
 
 /* Our awesome Portfolio Section Design */
