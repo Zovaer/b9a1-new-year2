@@ -182,7 +182,36 @@ body {
 }
 
 /* Holidays Section Design */
-.holidays {
+.holidays01{
+  position: relative;
+  margin: 0px 90px;
+}
+/* .holidays02{
+  display: flex;
+  justify-content: space-around;
+} */
+.holidays03{
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ladypic {
+  position: absolute;
+  right: 193px;
+  bottom: 228px;
+  
+
+}
+.discount2{
+  position: absolute;
+  right: 460px;
+  bottom: 242px;
+  z-index: 1;
+  
+}
+
+/*  
   margin: 0px 90px;
   height: 100vh;
   display: flex;
@@ -194,8 +223,8 @@ body {
   background-size: 100% 25%;
   
 }
-  /* align-items: center; */
-}
+  align-items: center; 
+ }
 
 .holidays .holidays-body {
   text-align: center;
@@ -251,7 +280,7 @@ body {
   width: 1320px;
   margin-bottom: 10%;
   z-index: -1;
-}
+} */
 
 
 
